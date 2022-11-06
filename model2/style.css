@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#price--title {
+  width: 100%;
+  height: auto;
+  margin: 50px;
+}
+#price--title .price--info {
+  text-align: center;
+}
+#price--title .price--info h1 {
+  margin-bottom: 20px;
+}
+#price--title .price--info .price--period {
+  justify-items: center;
+  margin-top: 40px;
+}
+#price--title .price--info .price--period button {
+  width: 100px;
+  height: 27px;
+  border-radius: 5px;
+  background-color: rgb(8, 64, 63);
+  color: rgb(247, 247, 247);
+  transform: scale;
+}
+#price--title .price--info .price--period button .range {
+  position: relative;
+  top: 3px;
+}
+
+#category {
+  width: 100vw;
+  height: 100vh;
+}
+#category .container {
+  width: 609px;
+  height: 370px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+#category .container .free {
+  width: 203px;
+  height: 370px;
+  border: 2px solid rgb(9, 108, 154);
+  border-radius: 5px;
+}
+#category .container .free h1 {
+  margin-top: 30px;
+  font-style: bold;
+}
+#category .container .free p {
+  margin-top: 20px;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: small;
+}
+#category .container .free .sup {
+  font-size: x-large;
+  color: blue;
+  position: relative;
+  left: -35px;
+  text-align: center;
+}
+#category .container .free span {
+  font-size: 10px;
+  color: blue;
+  position: relative;
+  left: -5px;
+  top: -15px;
+  opacity: 2px;
+  font-weight: bold;
+}
+#category .container .free button {
+  width: 170px;
+  height: 30px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(6, 49, 49);
+}
+#category .container .list-free {
+  font-size: small;
+  text-align: left;
+  list-style-position: inside;
+  list-style-image: url(./icons/check-circle\ \(3\).svg);
+}
+#category .container .standart {
+  width: 203px;
+  height: 370px;
+  border: 2px solid rgb(47, 0, 255);
+  border-radius: 5px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+#category .container .standart h1 {
+  margin-top: 30px;
+  font-style: bold;
+}
+#category .container .standart p {
+  margin-top: 20px;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: small;
+}
+#category .container .standart .sup {
+  font-size: x-large;
+  color: rgb(149, 149, 241);
+  position: relative;
+  left: -35px;
+  text-align: center;
+}
+#category .container .standart span {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 16px;
+  top: -15px;
+  opacity: 2px;
+  font-weight: bold;
+}
+#category .container .standart button {
+  width: 170px;
+  height: 30px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(38, 0, 255);
+}
+#category .container .list-standart {
+  font-size: small;
+  text-align: left;
+  list-style-position: inside;
+  list-style-image: url(./icons/check-circle\ \(3\).svg);
+}
+#category .container .premium {
+  width: 203px;
+  height: 370px;
+  border: 2px solid rgb(9, 108, 154);
+  border-radius: 5px;
+}
+#category .container .premium h1 {
+  margin-top: 30px;
+  font-style: bold;
+}
+#category .container .premium p {
+  margin-top: 20px;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: small;
+}
+#category .container .premium .sup {
+  font-size: x-large;
+  color: blue;
+  position: relative;
+  left: -35px;
+  text-align: center;
+}
+#category .container .premium span {
+  font-size: 10px;
+  color: blue;
+  position: relative;
+  left: 20px;
+  top: -15px;
+  opacity: 2px;
+  font-weight: bold;
+}
+#category .container .premium button {
+  width: 170px;
+  height: 30px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(6, 49, 49);
+}
+#category .container .list-premium {
+  font-size: small;
+  text-align: left;
+  list-style-position: inside;
+  list-style-image: url(./icons/check-circle\ \(3\).svg);
+}/*# sourceMappingURL=style.css.map */

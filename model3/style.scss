@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#card--visit {
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  
+  display: flex;
+
+
+
+  .card--left {
+    height: 300px;
+    width: 600px;
+    margin-top:  60px;
+
+    h5 {
+      margin: 30px;
+      opacity: 0.4;
+    }
+
+    h1 {
+      margin: 30px;
+      letter-spacing: 0px;
+    }
+
+    p{
+        margin-bottom: 20px;
+        opacity: 0.6;
+        
+    }
+
+    .trynow {
+      background-color: #2f2ab6; /* Green */
+      border: none;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      padding: 13px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    .learnmore {
+      background-color: #ffffff; /* Green */
+      border: 1px solid #2f2ab6;
+      border-radius: 3px;
+      color: #2f2ab6;;
+      padding: 12px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+
+   .vertical-line{
+
+    border-left: 3px solid rgb(148, 158, 148);
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 100;
+
+   }
+   .card--right {
+    height: 300px;
+    width: 600px;
+    margin-top:  60px;
+
+    h5 {
+      margin: 30px;
+      opacity: 0.4;
+    }
+
+    h1 {
+      margin: 30px;
+      letter-spacing: 0px;
+    }
+
+    p{
+        margin-bottom: 20px;
+        opacity: 0.6;
+        
+    }
+
+    // .trynow {
+    //   background-color: #2f2ab6; /* Green */
+    //   border: none;
+    //   border-radius: 5px;
+    //   color: rgb(255, 255, 255);
+    //   padding: 13px 28px;
+    //   text-align: center;
+    //   text-decoration: none;
+    //   display: inline-block;
+    //   font-size: 12px;
+    //   margin-right: 10px;
+    // }
+    // .learnmore {
+    //   background-color: #ffffff; /* Green */
+    //   border: 1px solid #2f2ab6;
+    //   border-radius: 3px;
+    //   color: #2f2ab6;;
+    //   padding: 12px 25px;
+    //   text-align: center;
+    //   text-decoration: none;
+    //   display: inline-block;
+    //   font-size: 12px;
+    //   font-weight: 700;
+    // }
+  }
+
+
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#card--visit {
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+}
+#card--visit .card--left {
+  height: 300px;
+  width: 600px;
+  margin-top: 60px;
+}
+#card--visit .card--left h5 {
+  margin: 30px;
+  opacity: 0.4;
+}
+#card--visit .card--left h1 {
+  margin: 30px;
+  letter-spacing: 0px;
+}
+#card--visit .card--left p {
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+#card--visit .card--left .trynow {
+  background-color: #2f2ab6; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+}
+#card--visit .card--left .learnmore {
+  background-color: #ffffff; /* Green */
+  border: 1px solid #2f2ab6;
+  border-radius: 3px;
+  color: #2f2ab6;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+}
+#card--visit .vertical-line {
+  border-left: 3px solid rgb(148, 158, 148);
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 100;
+}
+#card--visit .card--right {
+  height: 300px;
+  width: 600px;
+  margin-top: 60px;
+}
+#card--visit .card--right h5 {
+  margin: 30px;
+  opacity: 0.4;
+}
+#card--visit .card--right h1 {
+  margin: 30px;
+  letter-spacing: 0px;
+}
+#card--visit .card--right p {
+  margin-bottom: 20px;
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
